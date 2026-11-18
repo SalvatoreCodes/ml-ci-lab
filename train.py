@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> dbbbe03 (hello world)
 import json
 import joblib
 from sklearn.datasets import load_breast_cancer
@@ -24,4 +28,7 @@ if __name__== "__main__":
   joblib.dump(model, "model.joblib")
   with open("metrics.json", "w") as f:
     json.dump({"accuracy": round(accuracy, 4)}, f)
+<<<<<<< HEAD
 #
+=======
+>>>>>>> dbbbe03 (hello world)
